@@ -1,6 +1,20 @@
 body {
-    background:#fefefe; 
     font-family: 'PT Sans',Helvetica,Arial,sans-serif;
+    background:#fff url(http://civiccommons.org/wp-content/themes/biznizz/images/rd/header-bg.png) repeat-x center top
+}
+
+header {
+    background:transparent url(http://civiccommons.org/wp-content/themes/biznizz/images/rd/header-bg.png) no-repeat center top;
+}
+
+header, .container, footer {
+    width:40em;
+    margin:0px auto;
+    padding:1em;
+}
+
+.container {
+    padding-top:8px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,11 +26,32 @@ h1 {
     font-size:3em;
 }
 
-.page-header {
-    margin-top:30px;
+h2 {
+    font-family: 'PT Sans',Helvetica,Arial,sans-serif;
+    font-size:2.5em;
 }
 
-.page-header, footer {
+h2 input {
+    font-family: 'Rock Salt', sans-serif;
+    text-align:center;
+    font-style:italic;
+    color:#000;
+    font-size:28px;
+    width:13em;
+}
+
+article {
+    padding:10px;
+    margin:10px;
+}
+
+article h2 {
+    font-size:1.8em;
+    font-weight:bold;
+    margin:0;
+}
+
+input {
     border:0px none;
+    border-bottom:1px dotted #999;
 }
-
