@@ -1,3 +1,22 @@
 body {
-    background:red; 
+    background:#fefefe; 
+    font-family: 'PT Sans',Helvetica,Arial,sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;
+}
+
+h1 {
+    text-align:center;
+    font-size:3em;
+}
+
+.page-header {
+    margin-top:30px;
+}
+
+.page-header, footer {
+    border:0px none;
+}
+
