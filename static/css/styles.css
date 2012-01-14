@@ -8,13 +8,17 @@ header {
 }
 
 header, .container, footer {
-    width:40em;
+    width:960px;
     margin:0px auto;
-    padding:1em;
+    padding:20px;
 }
 
 .container {
     padding-top:8px;
+}
+
+a, a:link, a:active, a:visited;{
+    color:#0062a0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +47,11 @@ h2 input {
 article {
     padding:10px;
     margin:10px;
+    border-top:1px dotted #5684bf;
+}
+
+article img {
+    float:left;
 }
 
 article h2 {
