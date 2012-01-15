@@ -1,5 +1,9 @@
 Bulk importer for the Civic Commons Marketplace
 http://marketplace.civiccommons.org/
 
+
+Right now this match 2 items, does an autocomplete on the names of ORGs and APPs but does not save to the API since there is some needed work around the auth/login
+
+
 MIT
 
