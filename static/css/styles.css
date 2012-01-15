@@ -37,11 +37,11 @@ h2 {
 
 h2 input {
     font-family: 'Rock Salt', sans-serif;
-    text-align:center;
+
     font-style:italic;
     color:#000;
     font-size:28px;
-    width:13em;
+    width:25em;
 }
 
 article {
@@ -63,4 +63,18 @@ article h2 {
 input {
     border:0px none;
     border-bottom:1px dotted #999;
+}
+.ui-menu-item{ 
+  background:#fff;
+  padding:5px;
+  list-style:none;
+  margin:0px;
+}
+#ui-active-menuitem{ 
+  font-weight:bold;
+}
+#controls{ 
+  margin-top:50px;
+  border-top:solid 1px #ccc;
+  padding-top:30px;
 }
